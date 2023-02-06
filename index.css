@@ -1,10 +1,20 @@
 body{
-  background: url("./imgs/bgc2.jpg") no-repeat;
+    background: url("./imgs/bgc5.jpg") no-repeat;
+    /* background-size: contain contain;
+     */
+     background-size: cover;
+
     background-position: top;
+    margin:0;
+   padding:0;
+   height:100%;
+
+    /* position: relative; */
+    
 }
 .title{
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
     margin-bottom: 70px;
     color: white;
 }
@@ -13,21 +23,49 @@ body{
     display: flex;
     background-color: rgba(255,255,255,0.2);
     flex-wrap: wrap;
-    justify-content:center;
-    
+    justify-content:center; 
+    margin-bottom: 120px;
 }
 .app{
+    margin: 5px;
+}
+.app .logo{
     width: 60px;
     height: 60px;
     background-color: white;
     border-radius: 50%;
     text-align: center;
-    margin: 20px;
-
-    /* line-height: 100px;
-    align-items: center; */
+    margin:10px  30px;
 }
-/* .app a{
-    width: 100%;
-    height: 100%;
-} */
+.app .info{
+    background-color: rgba(255,255,255,0.8) ;
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.app:hover .info{
+    color: white;
+    background-color: rgba(8, 8, 8, 0.8) ;
+}
+
+a{
+    text-decoration: none;
+}
+.app a{
+    color: black;
+}
+.foot{
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    width:100% ;
+    /* bottom: 0; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.foot a{
+    color: white;
+    font-size: small;
+}
