@@ -13,6 +13,16 @@
 
 在gitee或github一键部署，操作简单
 
+# 配置
+进入setting把项目名设为xxx.github.io
+## 域名
+项目名：xxx.github.io
+网站的域名就是 https://账号名.github.io/项目名
+如果项目名的xxx设为账号名
+则网站的域名就是 https://账号名.github.io
+### 配置自己的域名
+https://www.cnblogs.com/chevin/p/9236584.html
+
 ## 获取图标的方式
 
 ### 1.图片
