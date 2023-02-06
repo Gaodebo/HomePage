@@ -2,7 +2,7 @@ body{
     background: url("./imgs/bgc5.jpg") no-repeat;
     /* background-size: contain contain;
      */
-     background-size: cover;
+     background-size: 100% atuo;
 
     background-position: top;
     margin:0;
