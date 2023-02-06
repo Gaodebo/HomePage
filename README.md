@@ -15,6 +15,7 @@
 
 # 配置
 进入setting把项目名设为xxx.github.io
+进入pages选择main分支
 ## 域名
 项目名：xxx.github.io
 网站的域名就是 https://账号名.github.io/项目名
